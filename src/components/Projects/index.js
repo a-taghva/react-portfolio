@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Project from '../Project';
 
 function Projects() {
   const [ projects ] = useState([
@@ -32,7 +33,7 @@ function Projects() {
   return(
     <div>
       {projects.map(project => (
-        <div key={project.title}>{project.title}</div>
+        <Project key={project.title} project={project} />
       ))}
     </div>
   )
