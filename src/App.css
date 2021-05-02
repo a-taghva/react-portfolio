@@ -67,7 +67,7 @@ header nav ul li {
 /* apply styles to hero */
 
 .hero {
-  /* background-image: url("../images/hero.jpg"); */
+  background-image: url("./assets/images/hero.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -152,7 +152,7 @@ section div {
 }
 
 .run-buddy {
-  /* background-image: url("../images/run-buddy.png"); */
+  background-image: url("./assets/images/run-buddy.png");
 }
 
 .task-m-p {
@@ -161,20 +161,20 @@ section div {
 }
 
 .led-wall {
-  /* background-image: url("../images/git-it-done.png"); */
+  background-image: url("./assets/images/git-it-done.png");
 }
 
 .calculator {
-  /* background-image: url("../images/zookeeper.png"); */
+  background-image: url("./assets/images/zookeeper.png");
 }
 
 .surf-report {
-  /* background-image: url("../images/taskmaster-pro.png"); */
+  background-image: url("./assets/images/taskmaster-pro.png");
   background-position: top;
 }
 
 .taskmaster-pro {
-  /* background-image: url("../images/simply-unused.png"); */
+  background-image: url("./assets/images/simply-unused.png");
 }
 
 .project-caption {
