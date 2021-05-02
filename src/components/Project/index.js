@@ -1,10 +1,20 @@
 import React from 'react';
 
 function Project({ project }) {
-  const { title, src, description } = project;
+  const { title, src, description, link } = project;
 
   return(
-    <div>{title}</div>
+        <div class={`grid-item${ title === 'Taskmaster Pro' ? ' task-m-p' : '' }`}>
+          <a href={link}>
+            <div  class="project-img">
+              <img src={require('../../assets/images/run-buddy.png')} alt={title} />
+            </div>
+            <div class="project-caption">
+              <h3>{title}</h3>
+              <h4>{description}</h4>
+            </div>
+          </a>
+        </div>
   )
 }
 
