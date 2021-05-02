@@ -106,7 +106,7 @@ section {
   padding: 30px;
 }
 
-.fa {
+section .fa {
   font-size: 3.5rem;
   margin-bottom: 26px;
 }
@@ -248,6 +248,21 @@ section div {
 .submit-btn:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+#social-media {
+  display: flex;
+  justify-content: center;
+}
+
+#social-media .fa {
+  color: white;
+  font-size: 36px;
+  margin: 0 12px;
+}
+
+#social-media .fa:hover {
+  opacity: 0.6;
 }
 
 /* for 860px or less */
