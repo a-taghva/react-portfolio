@@ -4,10 +4,10 @@ import SocialMedia from '../SocialMedia';
 
 function Contact() {
   return(
-    <>
-      <ContactForm />
-      <SocialMedia />
-    </>
+      <section id="contact-me">
+        <ContactForm />
+        <SocialMedia />
+      </section>
   )
 } 
 
