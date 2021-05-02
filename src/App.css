@@ -37,8 +37,6 @@ header h1 {
 header nav {
   padding-right: 35px;
 }
-header nav ul {
-}
 
 header nav ul li {
   margin: 5px;
@@ -49,8 +47,9 @@ header nav ul li {
   display: flex;
 }
 
-.anchor-style li {
+.navActive {
   border-bottom: 2px solid var(--secondary-color);
+  opacity: 0.7;
 }
 
 .anchor-style a {
