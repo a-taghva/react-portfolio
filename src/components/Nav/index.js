@@ -1,26 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Nav() {
-  const nav = [
-    {
-      'title': 'About Me',
-      'link': '#about-me',
-    },
-    {
-      'title': 'Wrok',
-      'link': '#work',
-    },
-    {
-      'title': 'Contact Me',
-      'link': '#contact-me',
-    },
-    {
-      'title': 'Resume',
-      'link': '#resume',
-    },
-  ];
-
-  const [navSelected, setNavSelected] = useState(nav[0])
+function Nav({ nav, navSelected, setNavSelected }) {
 
   return(
     <header>
@@ -33,7 +13,7 @@ function Nav() {
                   className={navEl.title === navSelected.title ? 'navActive' : ''}
                   onClick={() => setNavSelected(navEl)}
                 >
-                  <a href={navEl.link}>{navEl.title}</a>
+                  <a>{navEl.title}</a>
                 </li>
               ))}
             </ul>

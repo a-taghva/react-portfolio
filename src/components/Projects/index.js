@@ -41,8 +41,8 @@ function Projects() {
     //     <Project key={project.title} project={project} />
     //   ))}
     // </div>
-    <section id="work">
-      <h2 class="section-title">Work</h2>
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
       <div class="projects">
 
         {projects.map(project => (
