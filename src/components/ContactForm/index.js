@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function ContactForm() {
+  const [formState, setFormState] = useState({
+    name: '',
+    email: '',
+    message: '',
+  })
+
   return(
     <form id="contact">
       <h2 class="section-title">Contact</h2>
