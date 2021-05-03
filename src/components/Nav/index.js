@@ -13,7 +13,7 @@ function Nav({ nav, navSelected, setNavSelected }) {
                   className={navEl.title === navSelected.title ? 'navActive' : ''}
                   onClick={() => setNavSelected(navEl)}
                 >
-                  <a>{navEl.title}</a>
+                  {navEl.title}
                 </li>
               ))}
             </ul>

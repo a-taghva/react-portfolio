@@ -6,8 +6,7 @@ function Project({ project }) {
   return(
         <div class={`grid-item${ title === 'Taskmaster Pro' ? ' task-m-p' : '' }`}>
           <a href={link}>
-            <div  class="project-img">
-              <img src={require('../../assets/images/run-buddy.png')} alt={title} />
+            <div  class={`project-img ${src}`}>
             </div>
             <div class="project-caption">
               <h3>{title}</h3>

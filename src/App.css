@@ -56,13 +56,14 @@ header nav ul li {
   opacity: 0.7;
 }
 
-.anchor-style a {
+.anchor-style li {
   font-weight: bold;
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-.anchor-style a:hover {
+.anchor-style li:hover {
+  cursor: pointer;
   opacity: 0.6;
   transition: .5s;
 }
@@ -105,6 +106,7 @@ section {
   justify-content: space-between;
   margin: auto;
   padding: 30px;
+  height: 80vh;
 }
 
 section .fa {
@@ -163,25 +165,25 @@ section div {
   background-image: url("./assets/images/run-buddy.png");
 }
 
-.task-m-p {
+/* .task-m-p {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
-}
+} */
 
-.led-wall {
+.git-it-done {
   background-image: url("./assets/images/git-it-done.png");
 }
 
-.calculator {
+.zookeeper {
   background-image: url("./assets/images/zookeeper.png");
 }
 
-.surf-report {
+.taskmaster-pro {
   background-image: url("./assets/images/taskmaster-pro.png");
   background-position: top;
 }
 
-.taskmaster-pro {
+.simply-unused {
   background-image: url("./assets/images/simply-unused.png");
 }
 
@@ -215,13 +217,13 @@ section div {
   padding: 2px;
 } */
 
-#contact-me {
+/* #contact-me { */
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 700px; */
-  height: 600px;
-}
+  /* height: 600px; */
+/* } */
 
 #contact {
   max-width: 600px;
@@ -252,9 +254,9 @@ section div {
   font-size: 16px;
 }
 
-#contact-field textarea {
-  /* height: 150px; */
-}
+/* #contact-field textarea {
+  height: 150px;
+} */
 
 .submit-btn {
   border: none;
@@ -318,8 +320,9 @@ section div {
       /* flex-basis: 25px; */
       /* margin-bottom: 20px; */
       /* padding: 0 30px; */
+      margin-bottom: 10px;
   }
-  #work {height: 1600px;}
+  .projects {height: 1600px;}
   .projects {
     grid-template: repeat(6, 1fr) / 100%;
     width: 100%;

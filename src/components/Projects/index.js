@@ -5,31 +5,31 @@ function Projects() {
   const [ projects ] = useState([
     {
       title: 'Taskmaster Pro',
-      src: '',
+      src: 'taskmaster-pro',
       description: 'Javascript/jQuery',
       link: 'https://a-taghva.github.io/taskmaster-pro',
     },
     {
       title: 'Zookeeper',
-      src: '',
+      src: 'zookeeper',
       description: 'Node/Express/Heroku',
       link: 'https://dry-plateau-86771.herokuapp.com',
     },
     {
       title: 'Git it Done!',
-      src: '',
+      src: 'git-it-done',
       description: 'JavaScript/CSS',
       link: 'https://a-taghva.github.io/git-it-done',
     },
     {
       title: 'Run Buddy',
-      src: '../../assets/images/run-buddy.png',
+      src: 'run-buddy',
       description: 'HTML/CSS',
       link: 'https://a-taghva.github.io/run-buddy',
     },
     {
       title: 'Simply Unused',
-      src: '',
+      src: 'simply-unused',
       description: 'Node/JavaScript/MySQL',
       link: 'http://simply-unused.herokuapp.com',
     },

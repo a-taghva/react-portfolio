@@ -32,14 +32,11 @@ function App() {
   const [navSelected, setNavSelected] = useState(nav[0]);
 
   function renderComponent(component) {
-    console.log('component', component);
     switch(component) {
       case 'Projects':
         return <Projects />
       case 'Contact':
         return <Contact />
-      // case 'Resume':
-      //   return 0;
       default:
         return <About />
     }
