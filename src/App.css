@@ -187,6 +187,22 @@ section div {
   background-image: url("./assets/images/simply-unused.png");
 }
 
+.led-wall {
+  background-image: url("./assets/images/led-wall.jpg");
+}
+
+.surf-report {
+  background-image: url("./assets/images/surf-report.jpg");
+  background-position: bottom;
+}
+
+.calculator{
+  background-image: url("./assets/images/calculator.jpg");
+}
+
+.poke-parte {
+  background-image: url("./assets/images/poke-parte.png");
+}
 .project-caption {
   color: var(--primary-color);
   background: var(--secondary-color);
@@ -278,6 +294,7 @@ section div {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 20px;
 }
 
 #social-media .fa {
@@ -294,7 +311,7 @@ section div {
 /* for 860px or less */
 @media screen and (max-width: 860px) {
   .projects {
-    grid-template: auto / 1fr 1fr;
+    grid-template: auto / repeat(2, 1fr);
   }
 }
 
@@ -324,7 +341,7 @@ section div {
   }
   .projects {height: 1600px;}
   .projects {
-    grid-template: repeat(6, 1fr) / 100%;
+    grid-template: auto / 100%;
     width: 100%;
   }
 

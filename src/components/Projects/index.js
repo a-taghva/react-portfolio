@@ -33,6 +33,30 @@ function Projects() {
       description: 'Node/JavaScript/MySQL',
       link: 'http://simply-unused.herokuapp.com',
     },
+    {
+      title: 'Calculator',
+      src: 'calculator',
+      description: 'JavaScript/HTML',
+      link: '#',
+    },
+    {
+      title: 'LED Wall',
+      src: 'led-wall',
+      description: 'Node/MySQL',
+      link: '#',
+    },
+    {
+      title: 'Surf Report',
+      src: 'surf-report',
+      description: 'JavaScript/MongoDB',
+      link: '#',
+    },
+    {
+      title: 'Poke Parte',
+      src: 'poke-parte',
+      description: 'JavaScript/HTML/CSS',
+      link: 'https://damn-ma-6.github.io/Poke-Parte',
+    }
   ]);
 
   return(
