@@ -141,6 +141,11 @@ section div {
   flex-grow: 1;
 }
 
+section div p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
 .section-title {
   font-size: 32px;
   margin-bottom: 18px;
