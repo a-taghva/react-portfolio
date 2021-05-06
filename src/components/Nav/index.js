@@ -6,7 +6,7 @@ function Nav({ nav, navSelected, setNavSelected }) {
     <header>
       <h1>Ali Taghva</h1>
         <nav>
-            <ul class="anchor-style">
+            <ul className="anchor-style">
               {nav.map(navEl => (
                 <li 
                   key={navEl.title} 

@@ -54,16 +54,16 @@ function ContactForm() {
 
   return(
     <form id="contact" onSubmit={handleSubmit}>
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-field">
+      <h2 className="section-title">Contact</h2>
+      <div className="contact-field">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} />
       </div>
-      <div class="contact-field">
+      <div className="contact-field">
         <label htmlFor="email">Email address:</label>
         <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} />
       </div>
-      <div class="contact-field">
+      <div className="contact-field">
         <label htmlFor="message">Message:</label>
         <textarea id="message" rows="7" name="message" defaultValue={message} onBlur={handleChange}></textarea>
       </div>

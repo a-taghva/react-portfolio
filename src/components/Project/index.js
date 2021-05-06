@@ -4,13 +4,13 @@ function Project({ project }) {
   const { title, src, description, link, github } = project;
 
   return(
-        <div class={`grid-item${ title === 'Taskmaster Pro' ? ' task-m-p' : '' }`}>
-            <div  class={`project-img ${src}`}>
+        <div className={`grid-item${ title === 'Taskmaster Pro' ? ' task-m-p' : '' }`}>
+            <div  className={`project-img ${src}`}>
             </div>
-            <div class="project-caption">
-              <div class="project-links">
+            <div className="project-caption">
+              <div className="project-links">
                 <a href={link}><h3>{title}</h3></a>
-                <a href={github}><i class="fa fa-github"></i></a>
+                <a href={github}><i className="fa fa-github"></i></a>
               </div>
               <h4>{description}</h4>
             </div>

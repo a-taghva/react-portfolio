@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return(
     <section id="about-me">
-      <i class="fa fa-user-circle"></i>
-      <h2 class="section-title">About Me</h2>
+      <i className="fa fa-user-circle"></i>
+      <h2 className="section-title">About Me</h2>
       <div>
           <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

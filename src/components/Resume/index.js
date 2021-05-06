@@ -3,8 +3,8 @@ import React from 'react';
 function Resume() {
   return(
     <section id="resume">
-      <h2 class="section-title">Resume</h2>
-      <p class="resume-download">
+      <h2 className="section-title">Resume</h2>
+      <p className="resume-download">
         Download my <a href="#">resume</a>
       </p>
       <h3>Front-end Proficiencies</h3>
