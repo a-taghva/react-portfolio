@@ -4,7 +4,7 @@ function Nav({ nav, navSelected, setNavSelected }) {
 
   return(
     <header>
-      <h1>Portfolio</h1>
+      <h1>Ali Taghva</h1>
         <nav>
             <ul class="anchor-style">
               {nav.map(navEl => (

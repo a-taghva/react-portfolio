@@ -12,12 +12,15 @@ function ContactForm() {
   const [ errorMessage, setErrorMessage ] = useState("");
 
   function handleChange(e) {
+    if (!e.target.value) {
+      return setErrorMessage(`${e.target.name} is required!`);
+    };
+
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       
       if (!isValid) {
-        setErrorMessage('please enter a valid email address');
-        return false
+        return setErrorMessage('please enter a valid email address');
       } else {
         setErrorMessage('');
       }
@@ -33,13 +36,15 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     if (!name) {
-      setErrorMessage('please enter your name')
-      return;
+      return setErrorMessage('please enter your name');
     };
 
     if (!message) {
-      setErrorMessage('please enter your message')
-      return;
+      return setErrorMessage('please enter your message');
+    }
+
+    if (!email) {
+      return setErrorMessage('please enter your email');
     }
 
     if (!errorMessage) {
