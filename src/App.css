@@ -109,6 +109,10 @@ section {
   overflow: auto;
 }
 
+footer {
+  font-size: 3rem;
+}
+
 #contact-me {
   display: flex;
   flex-direction: column;
