@@ -6,7 +6,6 @@ function Contact() {
   return(
       <section id="contact-me">
         <ContactForm />
-        <SocialMedia />
       </section>
   )
 } 
