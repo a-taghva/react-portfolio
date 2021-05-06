@@ -119,7 +119,7 @@ section ul {
   margin-left: 35px;
 }
 
-section h3 {
+#resume h3 {
   margin-top: 20px;
   margin-bottom: 10px
 }
@@ -200,6 +200,9 @@ section div p {
 
 .project-links {
   display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .project-links .fa {
