@@ -99,14 +99,37 @@ main {
 
 /* apply styles to about-me */
 
+
+
 section {
   max-width: 980px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin: auto;
   padding: 30px;
   height: 80vh;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section ul {
+  list-style-type: circle;
+  margin-left: 35px;
+}
+
+section h3 {
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+.resume-download a {
+  color: gray;
+}
+
+.resume-download a:hover {
+  color: white;
 }
 
 section .fa {
@@ -349,9 +372,9 @@ section div {
     margin-top: 10px;
   }
 
-  section {
+  /* section {
     flex-direction: column;
-  }
+  } */
   
   .section-title {
       /* border-right: none; */

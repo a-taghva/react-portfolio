@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Resume from './components/Resume'
 import './App.css';
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
         return <Projects />
       case 'Contact':
         return <Contact />
+      case 'Resume':
+        return <Resume />
       default:
         return <About />
     }
