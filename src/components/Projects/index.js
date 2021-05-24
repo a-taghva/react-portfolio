@@ -25,11 +25,11 @@ function Projects() {
       github: 'https://github.com/a-taghva/git-it-done',
     },
     {
-      title: 'Run Buddy',
+      title: 'Mind Decks',
       src: 'run-buddy',
-      description: 'HTML/CSS',
-      link: 'https://a-taghva.github.io/run-buddy',
-      github: 'https://github.com/a-taghva/run-buddy',
+      description: 'MERN Stack',
+      link: 'https://group5-project3-uot-duolingo.herokuapp.com/',
+      github: 'https://github.com/Uot-Project3-Group05/uot-project3-group5',
     },
     {
       title: 'Simply Unused',
